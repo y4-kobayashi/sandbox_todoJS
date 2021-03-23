@@ -55,12 +55,18 @@ button:hover {
   color: #666;
 }
 
+ul {
+  paddding-left: 0;
+}
+
 .list-row {
   display: flex;
   align-items: center;
   padding-bottom: 4px;
 }
 
-.list-row li {
+.list-row p {
   margin-right: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
